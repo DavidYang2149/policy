@@ -11,6 +11,22 @@ export default async function PrivacyPolicy({ params }: PageProps) {
   const { lang } = await params;
   const dict = getDictionary(lang);
 
+  // 뒤로 가기 아이콘 SVG
+  const BackIcon = () => (
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      className="h-5 w-5" 
+      viewBox="0 0 20 20" 
+      fill="currentColor"
+    >
+      <path 
+        fillRule="evenodd" 
+        d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z" 
+        clipRule="evenodd" 
+      />
+    </svg>
+  );
+
   // 폴리시 각 섹션의 데이터를 배열로 정리
   const policySections = [
     {
@@ -48,7 +64,7 @@ export default async function PrivacyPolicy({ params }: PageProps) {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 py-8">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-50 to-gray-100 py-8">
       <Container maxWidth="4xl">
         {/* 언어 선택 */}
         <LanguageSwitcher 
@@ -86,6 +102,7 @@ export default async function PrivacyPolicy({ params }: PageProps) {
           <Button 
             href={`/${lang}`}
             variant="secondary"
+            icon={<BackIcon />}
           >
             {dict.common.back}
           </Button>
