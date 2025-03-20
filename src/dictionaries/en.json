@@ -1,0 +1,48 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "section1": {
+      "title": "1. Purpose of Processing Personal Information",
+      "content1": "This application processes personal information for the following purposes. The personal information being processed is not used for purposes other than the following, and if the purpose of use changes, necessary measures will be taken such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act.",
+      "content2": "- Provision and improvement of application services\n- User identification and prevention of illegal/improper use\n- Response to error reports and inquiries"
+    },
+    "section2": {
+      "title": "2. Collection of Personal Information",
+      "content1": "This application may collect the following information during the service use process.",
+      "content2": "- Automatically collected items: Device information (device identifier, operating system version, etc.), app usage data, error logs\n- Required items: None"
+    },
+    "section3": {
+      "title": "3. Retention and Use Period of Personal Information",
+      "content": "In principle, user's personal information is destroyed without delay after the purpose of processing personal information has been achieved. However, if there is a need to preserve it according to the provisions of relevant laws, personal information may be kept for a certain period of time specified by law."
+    },
+    "section4": {
+      "title": "4. Provision of Personal Information to Third Parties",
+      "content1": "In principle, this application does not provide users' personal information to third parties. However, the following cases are exceptions.",
+      "content2": "- When the user has given prior consent to provide to a third party\n- When there is a request from an investigation agency according to the procedures and methods prescribed by law for the purpose of investigation in accordance with the provisions of the law"
+    },
+    "section5": {
+      "title": "5. Destruction of Personal Information",
+      "content1": "When the purpose of processing personal information is achieved, the information is destroyed without delay. The destruction procedure and method are as follows.",
+      "content2": "- Destruction procedure: Information entered by users for service use is moved to a separate DB after the purpose is achieved and stored for a certain period of time in accordance with internal policies and other relevant laws and regulations regarding information protection, and then destroyed.\n- Destruction method: Personal information stored in electronic file format is deleted using technical methods in a way that cannot be recovered or reproduced."
+    },
+    "section6": {
+      "title": "6. Rights of Users and Legal Representatives and Methods of Exercise",
+      "content": "Users can request withdrawal of consent to collection and use of personal information, viewing of personal information, and correction in case of errors. Users can exercise their rights in accordance with the Personal Information Protection Act through written documents, e-mail, etc., and the company will take measures without delay."
+    },
+    "section7": {
+      "title": "7. Personal Information Protection Officer",
+      "content1": "This application is responsible for overseeing the work related to personal information processing, and designates the following personal information protection officer for handling user complaints and remedies related to personal information processing.",
+      "content2": "- Name: Yang Hong Seok\n- Contact: davidyang2149@gmail.com"
+    },
+    "section8": {
+      "title": "8. Changes to the Privacy Policy",
+      "content": "This privacy policy applies from March 13, 2025. In case of addition, deletion, and correction of changes in content according to laws and policies, it will be announced through the notice 7 days before the implementation of the changes."
+    },
+    "updateDate": "Last updated: March 13, 2025"
+  }
+}
